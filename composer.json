@@ -9,11 +9,9 @@
     "description": "Sylius roles and permissions management plugin",
     "license": "MIT",
     "require": {
-        "php": "^8.0",
-        "sylius/sylius": "^1.12",
-        "sylius/mailer-bundle":  "^1.8 || ^2.0@beta",
-        "symfony/webpack-encore-bundle": "^1.15",
-        "symfony/messenger": "^4.4 || ^5.2 || ^6.0"
+        "php": "^7.2",
+        "sylius/sylius": "^1.6",
+        "symfony/messenger": "^4.4"
     },
     "require-dev": {
         "behat/behat": "^3.6.1",
@@ -44,9 +42,6 @@
         "symfony/intl": "^5.4 || ^6.0",
         "symfony/web-profiler-bundle": "^5.4 || ^6.0",
         "vimeo/psalm": "5.12.0"
-    },
-    "conflict": {
-        "symfony/framework-bundle": "6.2.8"
     },
     "config": {
         "sort-packages": true,
